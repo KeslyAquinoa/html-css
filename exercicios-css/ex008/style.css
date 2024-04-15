@@ -1,0 +1,29 @@
+/*
+em HTML "id"= em CSS "principal"
+em HTML "class"= em CSS "."
+"*/
+body{
+    background-color: rgb(137, 182, 131);
+}
+
+h1{
+    color: rgb(53, 86, 57);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(54, 88, 76);
+    color: aliceblue;
+    border-radius:10px ;
+}
+/*
+"O "h1" é facultativo, pode colocar apenas "#principal"
+*/
+
+h2{
+    color:rgb(36, 113, 43);
+}
+
+.basico{ 
+    color: rgb(98, 99, 32);
+}

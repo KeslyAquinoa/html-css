@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>áudio</title>
+</head>
+<body>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos reproduzir áudios em HTML</p>
+    <audio src="midia/Bossa Sonsa - Quincas Moreira.mp3"controls autoplay></audio>
+    <!--formatos de áudios: Mp3, WAV,OGG -->
+    <!--Para que o áudio seja comátivel com todos os tipos de navegadores, adicionamos mais de um formato-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Bossa Sonsa - Quincas Moreira.mp3" type="audio/mpeg">
+        <source src="midia/Bossa Sonsa - Quincas Moreira.ogg" type="audio/ogg">
+        <source src="midia/Bossa Sonsa - Quincas Moreira.wav" type="audio/wav"><!--Evite usar arquivos WAV, pois são muito pesados-->
+            <p>Infelizmente seu navegador não consegue reproduzir áudios. <a href="midia/Bossa Sonsa - Quincas Moreira.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+      
+    </audio>
+</body>
+</html>

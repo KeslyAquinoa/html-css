@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(109, 105, 100);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 0%;
+        }
+        header{
+            background-color:beige;
+            padding:4px 10px 20px 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        main{
+            margin: 10px;
+            padding: 10px;
+            background-color: beige;
+            border-radius: 10px;
+        }
+        article{
+            background-color: rgb(176, 140, 86);
+            padding-left: 5px;
+            border-radius: 10px;
+        }
+        article > aside {
+            background-color: rgb(111, 106, 106);
+            color: aliceblue;
+           margin-left: 0%;
+        }
+        footer{
+            background-color: black;
+            color: azure;
+            padding: px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            margin-right: 30px;
+            color: black;
+
+        }
+        h1{
+             
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        nav{
+            box-shadow:1px 1px 5px 1px #362a2a66;;
+            background-color: rgb(185, 139, 90);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        a:active{
+            color: blue;
+        }
+        #bola{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            margin:10px;
+            border-radius: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header> <!--Cabeçalho-->
+        <h1>Meu site</h1>
+        <hr>
+            <nav> <!--Menú-->
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+
+    </header>
+    <main> <!--Conteúdo principal-->
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam rerum sed, vitae ab consequuntur, odio obcaecati, corporis perferendis modi ullam minima iste vero. Nulla quas ducimus asperiores tempora obcaecati veritatis.</p>
+                <aside>
+                    Artigo escrito por José da Silva
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer> <!--Rodapé-->
+     <p>Desenvolvido por Kess</p>
+    </footer>
+    <div id="bola">oi</div>
+   
+
+</body>
+</html>
