@@ -53,6 +53,7 @@ header{
 }
 header > p{
     padding: 20px;
+
 }
    
 nav > a{
@@ -80,6 +81,7 @@ main p{
     text-align: justify;
     text-indent: 20px;
     line-height: 2em;
+    padding: 20px;
 }
 main img{
     width: 100%;
@@ -141,13 +143,23 @@ li{
 }
 div.video{
     background-color: rgb(56, 108, 108);
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;
     padding: 20px;
     position: relative;
+    width: 96%;
+    height: 360px;
+    margin: 0 auto;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
 }
 
 div.video > iframe{
     padding-right: 0px;
+    width: 550px;
+    height: 350px;
 }
 
 footer{
