@@ -10,7 +10,7 @@
     :root{
         --cor0: rgb(37, 96, 37);
         --fonte-destaque: 'Bebas Neue', sans-serif; 
-        --font-android: 'android'
+        --font-android: 'android';
     }
     *{
         margin: 0px;
