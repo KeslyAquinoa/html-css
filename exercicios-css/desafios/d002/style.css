@@ -46,10 +46,6 @@ a{
     font-weight: bolder;
 }
 
-a :hover{
-    text-decoration: underline;
-}
-
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -59,6 +55,11 @@ section{
     font-weight: bolder;
     font-size: 3.5vw;
 }
+
+section > p{
+    padding-bottom: 1em;
+}
+
  .normal{
     background-color: white;
     color: black;
@@ -67,12 +68,32 @@ section{
  .img{
     background-color: rgb(79, 79, 79);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.637);
+    /* inset sinaliza que a sombra é pra dentro */
+    background-size: cover;
  }
 
   .img > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.337);
+    background-color: rgba(0, 0, 0, 0.477);
+    text-shadow: 2px 1px 0px black;
+  }
+
+  #img01{
+    background-image: url(pacote-d002/imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+  }
+
+  #img02{
+    background-image: url(pacote-d002/imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+  }
+
+  footer a:active{
+    color: blue;
   }
 
 footer{
@@ -80,4 +101,5 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
+    font-family: var(--font2);
 }
