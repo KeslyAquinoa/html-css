@@ -8,6 +8,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -28,9 +29,20 @@
             padding: 10px;
         }
         
+        thead > tr > th {
+          position: sticky;
+          top: -1px;
+          background-color:rgb(154, 105, 41);
+        }
+
         thead, tfoot{
             background-color: rgb(154, 105, 41);
             color: white;
+        }
+
+        tbody > tr:nth-child(2n){
+          background-color: rgba(210, 159, 92, 0.563);
+        /*   nth-child() também aceita a opcão 'odd'= ímpar ou 'even'= par  */
         }
 
         tbody{
