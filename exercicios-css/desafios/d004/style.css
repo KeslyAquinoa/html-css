@@ -75,7 +75,7 @@
  main{
     max-width: 1000px;
     min-width: 200px;
-    padding: 20px;
+    padding: 60px 20px;
     margin: auto;
     background-color:#f3ced4;
  } 
@@ -171,10 +171,11 @@
 
 
 table{
-    margin: auto;
+    margin: 0 auto;
     border-collapse: collapse;
-     width: 300px;
-     position: relative;
+    max-width: 200px;
+    min-width: none;
+    position: relative;
 }
 
 
