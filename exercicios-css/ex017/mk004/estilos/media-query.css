@@ -22,7 +22,7 @@ Grandes telas: 1200px ou mais
          /*Desnecessário pois a impressora não imprime background */
          font-family: 'Courier New', Courier, monospace;  
     }
-    
+     
     main{
         border: 2px solid black;
         width: 90vw;

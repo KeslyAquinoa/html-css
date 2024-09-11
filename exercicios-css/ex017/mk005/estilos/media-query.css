@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias 
+
+---------------------------
+Typical Device Breakpoints
+---------------------------
+
+Pequenas telas: 320px a 480px 
+Celular: 480px a 600px
+Tablet: 600px a 768px (modo retrato)  768px a 1024px (modo paisagem)
+Desktop: 1024px a 1200px
+Grandes telas: 1200px ou mais 
+*/ 
+
+@media screen and (min-width: 600px) {
+    header #burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+         display: inline-block;
+         border-bottom: 2px solid black;
+    }
+
+    main{
+        max-width: 700px;
+    }
+}
