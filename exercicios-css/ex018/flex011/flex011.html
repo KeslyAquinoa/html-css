@@ -10,39 +10,39 @@
         background-color: lightblue;
 
         display: flex;
-        flex-flow: row wrap ;
+        flex-flow: row nowrap;
         }
 
         .item {
             background-color: lightgreen;
             border: 1px solid black;
             text-align: center;
-            padding: 20px;
-
-            
-        }
-        #i1{
-            order: 5;
+            flex-basis: 250px;
         }
 
-        #i4{
-            order: -1;
+        #cxA{
+            flex-grow:1;
+            flex-shrink: 1;
         }
 
-        #i7{
-            order: 3;
+        #cxB{
+            flex-grow:0;
+            flex-shrink: 4;
+        }
+
+        #cxC{
+            flex-grow:1;
+            flex-shrink: 1;
+
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-            <div class="item" id="i1">A</div>
-            <div class="item" id="i2">B</div>
-            <div class="item" id="i3">C</div>
-            <div class="item" id="i4">D</div>
-            <div class="item" id="i5">E</div>
-            <div class="item" id="i6">F</div>
-            <div class="item" id="i7">G</div>
+            <div class="item" id="cxA">A</div>
+            <div class="item" id="cxB">B</div>
+            <div class="item" id="cxC">C</div>
+           
     </div>
 </body>
 </html>
