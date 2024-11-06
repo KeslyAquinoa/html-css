@@ -1,4 +1,4 @@
-/* @charset "UTF-8" */
+/*  @charset "UTF-8"  */
 
 *{
     margin: 0px;
@@ -26,6 +26,7 @@ header{
 
 header > h1{
    /*  border: 1px dotted black; */
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.464);
     margin: 10px;
     flex: 0 0 150px;
 }
